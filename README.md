@@ -10,3 +10,4 @@ Se usan validaciones tanto en filtros como automaticas mediante fluent validatio
 
 Se pensó en usar redisCache pero se desistio de ello (esta implementado de igual forma) debido a que soportaria maximo 165 dominoes y haciendo una prueba de ordenamiento de 368 dominoes aleatorios, solo tardó 30ms. En su lugar, tarda unos 100ms en hacer y recoger la llamada de redis.
 
+También se añadio un dockerfile para correr el proceso de CI.
